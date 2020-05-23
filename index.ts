@@ -3,7 +3,7 @@ import router from "./routes/router.ts";
 
 const PORT = 3000;
 const app = new Application();
-
+console.log("worked")
 app.use(router.routes());
 app.use(router.allowedMethods());
  
